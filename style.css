@@ -12,3 +12,37 @@ text-align: center;
 
 
 
+!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            margin: 20px;
+            display: inline-block;
+            text-align: center;
+            padding-top: 70px; /* Adjust based on the box height to center text */
+        }
+        .box1 { background-color: lightblue; }
+        .box2 { background-color: lightgreen; }
+        .box3 { background-color: lightcoral; }
+        .box4 { background-color: lightgoldenrodyellow; }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <span>Text 1</span>
+    </div>
+    <div class="box box2">
+        <span>Text 2</span>
+    </div>
+    <div class="box box3">
+        <span>Text 3</span>
+    </div>
+    <div class="box box4">
+        <span>Text 4</span>
+    </div>
+</body>
+</html>
