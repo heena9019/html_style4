@@ -10,9 +10,11 @@
     height: 200px;
     border: 5px solid red;
      text-align: center;
-    padding-top: 7px; 
+    padding-top: 7px;
     justify-content: center;
+    display: flex;
     background-color: blueviolet;
+
 }
 
 .box2 {
@@ -22,6 +24,7 @@
      text-align: center;
     padding-top: 7px; 
     justify-content: center;
+    display: flex;
     background-color: yellow;
 }
 
@@ -32,6 +35,7 @@
      text-align: center;
     padding-top: 7px; 
     justify-content: center;
+    display: flex;
     background-color: brown;
 }
 
@@ -43,8 +47,13 @@
      text-align: center;
     padding-top: 7px; 
     justify-content: center;
+    display: flex;
     background-color: goldenrod
 }
+ 
+
+
+
 
 
 
