@@ -1,20 +1,20 @@
 body {
-  background-color: greenyellow;
+  background-color: white;
 }
   
 .main {
 display: flex;
 justify-content: center;
-
 gap :14px;
 flex: wrap;
 width: 100%;
-
+box-shadow: 0.5rem  0.5rem  0.5rem  #555;
 }
 
 
+
 .main h3 {
-  color:aqua;
+  color:black;
   font-size: 22px;
   line-height:25px;
 
@@ -23,7 +23,7 @@ width: 100%;
 
 .main p  {
 
-  color: blanchedalmond;
+  color: black;
   font-size: 20px;
   line-height:25px;
 
@@ -31,8 +31,16 @@ width: 100%;
 
 .main  button  {
 padding: 20px 20px  10px 10px;
-color: goldenrod;
+color: grey;
+justify-content: center;
+text-align: center;
+display: block;
+margin: auto;
+ font-size:15px;
+ overflow: hidden;
 
 } 
+
+
 
 
