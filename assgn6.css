@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: sans-serif;
+
+     
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin-inline: auto;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    justify-content: space-between;
+
+}
+    /* logo image  size */
+.logo img {
+    width: 150px;
+
+
+}
+
+
+.nav-links {
+    flex-basis: 700px;
+}
+
+
+
+
+.nav-links ul {
+    justify-content: end;
+    gap: 70px;
+}
+
+
+/* header section */
+
+.header {
+    padding: 4px 0 ;
+
+}
+
+.header-section {
+    justify-content: space-around;
+    gap: 50px;
+    background-image: url('./bg-curve-desktop.svg');
+    background-size: 500px;
+
+}
+   /* img  width */
+.header-right img {
+    width: 450px;
+}
+
+
+.header-left {
+max-width: 100vh;
+flex-direction: column;
+align-items: flex-start;
+
+
+}
+
+.p{
+font-size: 30px;
+color: aqua;
+
+}
+
+
+
+
+/* cta section  */
+
+.cta-section-container {
+     
+    flex-direction: column;
+    gap: 20px;
+ color: white;
+
+
+}
+.cta-section {
+    padding: 30px;
+
+    background-color: hwb(245 64% 31%);
+
+     
+}
+
+.cta-section-container p {
+color: white;
+margin-top: 10px;
+
+}
+
+.footer {
+    padding-block: 40px;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+    color: white;
+
+}
+.footer-section  {
+
+    background-color:midnightblue;
+    color: white;
+
+}
+
+
+    body {
+        font-size: 14px;
+
+    }
+
+.input-name {
+width: 100%;
+margin: 15px auto;
+font-size: 20px;
+padding: 10px;
+list-style: none;
+
+}
+.primary-button {
+    background-color: blue;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white !important;
+    /* padding: 8px 10px; */
+
+} 
+
+
+* {
+    box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+}
+
+
+    /* .container {
+        display: flex;
+        justify-content: center;
+    } */
+
+
+.card {
+
+    background: white;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+
+
+
+
